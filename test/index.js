@@ -12,6 +12,7 @@ try {
   require('./public-encrypt')
   require('./random-bytes')
   require('./sign')
+  require('./timing-safe-equal')
 } catch (e) {
   console.log('no secure rng avaiable')
 }
